@@ -57,8 +57,6 @@ const addTask = e => {
   if (inputEl.value === "") {
     alert("Please Enter some value in the input Field");
   }
-  // inputEl.value = "";
-
   //get the item
   const task = inputEl.value;
   if (task) {
